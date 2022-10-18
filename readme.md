@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone/download the project
+2. to verify your installation, execute the following commands in command line / Powershell `docker -v` and `docker-compose -v`.
+3. in the folder root, run the command docker-compose up. This will setup docker and download any necessary files to run the app.
+4. navigate to `http://localhost:3000/api/ping` to check if the docker image installed correctly
+5. Finally, Create an account by going to `http://localhost:3000/register` set a username of of your own liking, E-mail address and password.
+
+You should now have a fully working installation of the Anythink Market app.
